@@ -258,14 +258,7 @@
                 },
                 computed: {
                     displayTasks() {
-                        switch (this.currentTab) {
-                            case 'Current':
-                                return this.tasks.filter(task => !task.isCompleted);
-                            case 'Completed':
-                                return this.tasks.filter(task => task.isCompleted);
-                            default:
-                                return this.tasks;
-                        }
+                        
                         if(this.currentTab == 'Current'){
                             return this.tasks.filter(task => !task.isCompleted);
                         }
