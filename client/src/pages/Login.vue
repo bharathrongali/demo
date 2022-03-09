@@ -8,7 +8,7 @@ import { Login } from '../models/session';
     }
     function login()
     {
-        Login('vp', 'password')
+        Login('Yuvi', 'yuvi3')
     }
 </script>
 
